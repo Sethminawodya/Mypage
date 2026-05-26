@@ -1,0 +1,84 @@
+body{
+	margin: 0;
+	padding: 0;
+}
+.menu , ul , li {
+	display: flex;
+	list-style: none;
+	color:#758A93;
+	cursor: pointer;
+
+
+}
+li{
+	margin-right: 20px;
+}
+.navbar{
+	display:flex;
+	justify-content: space-between;
+	height: 60px;
+	padding-left: 50px;
+	padding-right: 50px;
+	 
+}
+
+.logo , img{
+	margin-top: 10px;
+}
+.submit{
+	background-color:#7F2020;
+	color-white;
+	font-weight: bold;
+	border: none;
+	width: auto;
+	height: 40px;
+	padding-left: 20px;
+	padding-right: 20px;
+	border-radius: 10px;
+	margin-top: 10px;
+	margin-left: 20px;
+}
+.hero{
+	display: flex;
+	justify-content: space-between;
+	margin top:50px ;
+}
+.details{
+	margin-left: 50px;
+	width: 50vw;
+}
+.heading-text{
+	font-size: 80px;
+	color: #050C9C;
+}
+.get{
+	background-color:#7F2020 ;
+	color-white;
+	font-weight: bold;
+	border: none;
+	width: auto;
+	height: 40px;
+	padding-left: 25px;
+	padding-right: 25px;
+	border-radius: 8px;
+}
+.image{
+	width: 40vw;
+	border-radius: 20px;
+	margin-right: 50px;
+    height: auto;
+    background-size: cover;
+    background-image: url("https://cdn.create.vista.com/api/media/small/8803246/stock-photo-asian-college-student")
+    box-shadow:2px 0 5px rgba(0, 0, 0, 1.0) ;
+    background-position: center;
+
+
+}
+.middle{
+	height: 500px;
+
+}
+.footer{
+	display: flex;
+	justify-content: center;
+}
